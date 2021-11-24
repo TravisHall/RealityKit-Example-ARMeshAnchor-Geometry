@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4DD6BB9274EDC0B004A1D8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BB8274EDC0B004A1D8E /* AppDelegate.swift */; };
+		B4DD6BBB274EDC0B004A1D8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BBA274EDC0B004A1D8E /* ContentView.swift */; };
+		B4DD6BBD274EDC0B004A1D8E /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BBC274EDC0B004A1D8E /* Experience.rcproject */; };
+		B4DD6BBF274EDC0E004A1D8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DD6BBE274EDC0E004A1D8E /* Assets.xcassets */; };
+		B4DD6BC2274EDC0E004A1D8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DD6BC1274EDC0E004A1D8E /* Preview Assets.xcassets */; };
+		B4DD6BCC274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BCB274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorTests.swift */; };
+		B4DD6BD6274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BD5274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITests.swift */; };
+		B4DD6BD8274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BD7274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4DD6BC8274EDC0F004A1D8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4DD6BAD274EDC0B004A1D8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4DD6BB4274EDC0B004A1D8E;
+			remoteInfo = "RealityKit Example ARMeshAnchor";
+		};
+		B4DD6BD2274EDC0F004A1D8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4DD6BAD274EDC0B004A1D8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4DD6BB4274EDC0B004A1D8E;
+			remoteInfo = "RealityKit Example ARMeshAnchor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4DD6BB5274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealityKit Example ARMeshAnchor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DD6BB8274EDC0B004A1D8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4DD6BBA274EDC0B004A1D8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4DD6BBC274EDC0B004A1D8E /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		B4DD6BBE274EDC0E004A1D8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4DD6BC1274EDC0E004A1D8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4DD6BC7274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RealityKit Example ARMeshAnchorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DD6BCB274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKit_Example_ARMeshAnchorTests.swift; sourceTree = "<group>"; };
+		B4DD6BD1274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RealityKit Example ARMeshAnchorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DD6BD5274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKit_Example_ARMeshAnchorUITests.swift; sourceTree = "<group>"; };
+		B4DD6BD7274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKit_Example_ARMeshAnchorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4DD6BB2274EDC0B004A1D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DD6BC4274EDC0F004A1D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DD6BCE274EDC0F004A1D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4DD6BAC274EDC0B004A1D8E = {
+			isa = PBXGroup;
+			children = (
+				B4DD6BB7274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor */,
+				B4DD6BCA274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests */,
+				B4DD6BD4274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests */,
+				B4DD6BB6274EDC0B004A1D8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4DD6BB6274EDC0B004A1D8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD6BB5274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor.app */,
+				B4DD6BC7274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests.xctest */,
+				B4DD6BD1274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4DD6BB7274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD6BB8274EDC0B004A1D8E /* AppDelegate.swift */,
+				B4DD6BBA274EDC0B004A1D8E /* ContentView.swift */,
+				B4DD6BBC274EDC0B004A1D8E /* Experience.rcproject */,
+				B4DD6BBE274EDC0E004A1D8E /* Assets.xcassets */,
+				B4DD6BC0274EDC0E004A1D8E /* Preview Content */,
+			);
+			path = "RealityKit Example ARMeshAnchor";
+			sourceTree = "<group>";
+		};
+		B4DD6BC0274EDC0E004A1D8E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD6BC1274EDC0E004A1D8E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4DD6BCA274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD6BCB274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorTests.swift */,
+			);
+			path = "RealityKit Example ARMeshAnchorTests";
+			sourceTree = "<group>";
+		};
+		B4DD6BD4274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD6BD5274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITests.swift */,
+				B4DD6BD7274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITestsLaunchTests.swift */,
+			);
+			path = "RealityKit Example ARMeshAnchorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4DD6BB4274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DD6BDB274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchor" */;
+			buildPhases = (
+				B4DD6BB1274EDC0B004A1D8E /* Sources */,
+				B4DD6BB2274EDC0B004A1D8E /* Frameworks */,
+				B4DD6BB3274EDC0B004A1D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RealityKit Example ARMeshAnchor";
+			productName = "RealityKit Example ARMeshAnchor";
+			productReference = B4DD6BB5274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4DD6BC6274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DD6BDE274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchorTests" */;
+			buildPhases = (
+				B4DD6BC3274EDC0F004A1D8E /* Sources */,
+				B4DD6BC4274EDC0F004A1D8E /* Frameworks */,
+				B4DD6BC5274EDC0F004A1D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4DD6BC9274EDC0F004A1D8E /* PBXTargetDependency */,
+			);
+			name = "RealityKit Example ARMeshAnchorTests";
+			productName = "RealityKit Example ARMeshAnchorTests";
+			productReference = B4DD6BC7274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4DD6BD0274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DD6BE1274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchorUITests" */;
+			buildPhases = (
+				B4DD6BCD274EDC0F004A1D8E /* Sources */,
+				B4DD6BCE274EDC0F004A1D8E /* Frameworks */,
+				B4DD6BCF274EDC0F004A1D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4DD6BD3274EDC0F004A1D8E /* PBXTargetDependency */,
+			);
+			name = "RealityKit Example ARMeshAnchorUITests";
+			productName = "RealityKit Example ARMeshAnchorUITests";
+			productReference = B4DD6BD1274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4DD6BAD274EDC0B004A1D8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B4DD6BB4274EDC0B004A1D8E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					B4DD6BC6274EDC0F004A1D8E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B4DD6BB4274EDC0B004A1D8E;
+					};
+					B4DD6BD0274EDC0F004A1D8E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B4DD6BB4274EDC0B004A1D8E;
+					};
+				};
+			};
+			buildConfigurationList = B4DD6BB0274EDC0B004A1D8E /* Build configuration list for PBXProject "RealityKit Example ARMeshAnchor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4DD6BAC274EDC0B004A1D8E;
+			productRefGroup = B4DD6BB6274EDC0B004A1D8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4DD6BB4274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor */,
+				B4DD6BC6274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests */,
+				B4DD6BD0274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4DD6BB3274EDC0B004A1D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DD6BC2274EDC0E004A1D8E /* Preview Assets.xcassets in Resources */,
+				B4DD6BBF274EDC0E004A1D8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DD6BC5274EDC0F004A1D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DD6BCF274EDC0F004A1D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4DD6BB1274EDC0B004A1D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DD6BBB274EDC0B004A1D8E /* ContentView.swift in Sources */,
+				B4DD6BB9274EDC0B004A1D8E /* AppDelegate.swift in Sources */,
+				B4DD6BBD274EDC0B004A1D8E /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DD6BC3274EDC0F004A1D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DD6BCC274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DD6BCD274EDC0F004A1D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DD6BD8274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITestsLaunchTests.swift in Sources */,
+				B4DD6BD6274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4DD6BC9274EDC0F004A1D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4DD6BB4274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor */;
+			targetProxy = B4DD6BC8274EDC0F004A1D8E /* PBXContainerItemProxy */;
+		};
+		B4DD6BD3274EDC0F004A1D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4DD6BB4274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor */;
+			targetProxy = B4DD6BD2274EDC0F004A1D8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4DD6BD9274EDC0F004A1D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4DD6BDA274EDC0F004A1D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4DD6BDC274EDC0F004A1D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealityKit Example ARMeshAnchor/Preview Content\"";
+				DEVELOPMENT_TEAM = MSFV9JEB3U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TH.RealityKit-Example-ARMeshAnchor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4DD6BDD274EDC0F004A1D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealityKit Example ARMeshAnchor/Preview Content\"";
+				DEVELOPMENT_TEAM = MSFV9JEB3U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TH.RealityKit-Example-ARMeshAnchor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4DD6BDF274EDC0F004A1D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSFV9JEB3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TH.RealityKit-Example-ARMeshAnchorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealityKit Example ARMeshAnchor.app/RealityKit Example ARMeshAnchor";
+			};
+			name = Debug;
+		};
+		B4DD6BE0274EDC0F004A1D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSFV9JEB3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TH.RealityKit-Example-ARMeshAnchorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealityKit Example ARMeshAnchor.app/RealityKit Example ARMeshAnchor";
+			};
+			name = Release;
+		};
+		B4DD6BE2274EDC0F004A1D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSFV9JEB3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TH.RealityKit-Example-ARMeshAnchorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RealityKit Example ARMeshAnchor";
+			};
+			name = Debug;
+		};
+		B4DD6BE3274EDC0F004A1D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSFV9JEB3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TH.RealityKit-Example-ARMeshAnchorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RealityKit Example ARMeshAnchor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4DD6BB0274EDC0B004A1D8E /* Build configuration list for PBXProject "RealityKit Example ARMeshAnchor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DD6BD9274EDC0F004A1D8E /* Debug */,
+				B4DD6BDA274EDC0F004A1D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DD6BDB274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DD6BDC274EDC0F004A1D8E /* Debug */,
+				B4DD6BDD274EDC0F004A1D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DD6BDE274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DD6BDF274EDC0F004A1D8E /* Debug */,
+				B4DD6BE0274EDC0F004A1D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DD6BE1274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DD6BE2274EDC0F004A1D8E /* Debug */,
+				B4DD6BE3274EDC0F004A1D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4DD6BAD274EDC0B004A1D8E /* Project object */;
+}
