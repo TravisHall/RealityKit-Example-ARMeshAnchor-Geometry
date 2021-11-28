@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		B4DD6BB9274EDC0B004A1D8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BB8274EDC0B004A1D8E /* AppDelegate.swift */; };
 		B4DD6BBB274EDC0B004A1D8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BBA274EDC0B004A1D8E /* ContentView.swift */; };
-		B4DD6BBD274EDC0B004A1D8E /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BBC274EDC0B004A1D8E /* Experience.rcproject */; };
 		B4DD6BBF274EDC0E004A1D8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DD6BBE274EDC0E004A1D8E /* Assets.xcassets */; };
 		B4DD6BC2274EDC0E004A1D8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DD6BC1274EDC0E004A1D8E /* Preview Assets.xcassets */; };
 		B4DD6BCC274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BCB274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorTests.swift */; };
 		B4DD6BD6274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BD5274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITests.swift */; };
 		B4DD6BD8274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BD7274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITestsLaunchTests.swift */; };
+		B4DD6BE6274EE688004A1D8E /* MeshAnchorGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BE5274EE688004A1D8E /* MeshAnchorGeometry.swift */; };
+		B4DD6BE8274FB248004A1D8E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BE7274FB248004A1D8E /* Extensions.swift */; };
+		B4DD6BEF27512001004A1D8E /* warpSurface.metal in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BEE27512001004A1D8E /* warpSurface.metal */; };
+		B4DD6BF127512734004A1D8E /* warpGeometry.metal in Sources */ = {isa = PBXBuildFile; fileRef = B4DD6BF027512734004A1D8E /* warpGeometry.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B4DD6BB5274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealityKit Example ARMeshAnchor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DD6BB5274EDC0B004A1D8E /* RealityKit ARMeshAnchor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealityKit ARMeshAnchor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DD6BB8274EDC0B004A1D8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DD6BBA274EDC0B004A1D8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B4DD6BBC274EDC0B004A1D8E /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		B4DD6BBE274EDC0E004A1D8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4DD6BC1274EDC0E004A1D8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B4DD6BC7274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RealityKit Example ARMeshAnchorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DD6BC7274EDC0F004A1D8E /* RealityKit ARMeshAnchorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RealityKit ARMeshAnchorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DD6BCB274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKit_Example_ARMeshAnchorTests.swift; sourceTree = "<group>"; };
-		B4DD6BD1274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RealityKit Example ARMeshAnchorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DD6BD1274EDC0F004A1D8E /* RealityKit ARMeshAnchorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RealityKit ARMeshAnchorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DD6BD5274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKit_Example_ARMeshAnchorUITests.swift; sourceTree = "<group>"; };
 		B4DD6BD7274EDC0F004A1D8E /* RealityKit_Example_ARMeshAnchorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKit_Example_ARMeshAnchorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4DD6BE5274EE688004A1D8E /* MeshAnchorGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshAnchorGeometry.swift; sourceTree = "<group>"; };
+		B4DD6BE7274FB248004A1D8E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B4DD6BEE27512001004A1D8E /* warpSurface.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = warpSurface.metal; sourceTree = "<group>"; };
+		B4DD6BF027512734004A1D8E /* warpGeometry.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = warpGeometry.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +92,9 @@
 		B4DD6BB6274EDC0B004A1D8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4DD6BB5274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor.app */,
-				B4DD6BC7274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests.xctest */,
-				B4DD6BD1274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests.xctest */,
+				B4DD6BB5274EDC0B004A1D8E /* RealityKit ARMeshAnchor.app */,
+				B4DD6BC7274EDC0F004A1D8E /* RealityKit ARMeshAnchorTests.xctest */,
+				B4DD6BD1274EDC0F004A1D8E /* RealityKit ARMeshAnchorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,9 +102,12 @@
 		B4DD6BB7274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor */ = {
 			isa = PBXGroup;
 			children = (
+				B4DD6BE927511F5F004A1D8E /* Shaders */,
+				B4DD6BE4274EDF32004A1D8E /* Entities */,
 				B4DD6BB8274EDC0B004A1D8E /* AppDelegate.swift */,
+				B4DD6BE7274FB248004A1D8E /* Extensions.swift */,
 				B4DD6BBA274EDC0B004A1D8E /* ContentView.swift */,
-				B4DD6BBC274EDC0B004A1D8E /* Experience.rcproject */,
+				B4DD6BE5274EE688004A1D8E /* MeshAnchorGeometry.swift */,
 				B4DD6BBE274EDC0E004A1D8E /* Assets.xcassets */,
 				B4DD6BC0274EDC0E004A1D8E /* Preview Content */,
 			);
@@ -130,12 +139,28 @@
 			path = "RealityKit Example ARMeshAnchorUITests";
 			sourceTree = "<group>";
 		};
+		B4DD6BE4274EDF32004A1D8E /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B4DD6BE927511F5F004A1D8E /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD6BEE27512001004A1D8E /* warpSurface.metal */,
+				B4DD6BF027512734004A1D8E /* warpGeometry.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4DD6BB4274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor */ = {
+		B4DD6BB4274EDC0B004A1D8E /* RealityKit ARMeshAnchor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4DD6BDB274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchor" */;
+			buildConfigurationList = B4DD6BDB274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit ARMeshAnchor" */;
 			buildPhases = (
 				B4DD6BB1274EDC0B004A1D8E /* Sources */,
 				B4DD6BB2274EDC0B004A1D8E /* Frameworks */,
@@ -145,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = "RealityKit Example ARMeshAnchor";
+			name = "RealityKit ARMeshAnchor";
 			productName = "RealityKit Example ARMeshAnchor";
-			productReference = B4DD6BB5274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor.app */;
+			productReference = B4DD6BB5274EDC0B004A1D8E /* RealityKit ARMeshAnchor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B4DD6BC6274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests */ = {
+		B4DD6BC6274EDC0F004A1D8E /* RealityKit ARMeshAnchorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4DD6BDE274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchorTests" */;
+			buildConfigurationList = B4DD6BDE274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit ARMeshAnchorTests" */;
 			buildPhases = (
 				B4DD6BC3274EDC0F004A1D8E /* Sources */,
 				B4DD6BC4274EDC0F004A1D8E /* Frameworks */,
@@ -163,14 +188,14 @@
 			dependencies = (
 				B4DD6BC9274EDC0F004A1D8E /* PBXTargetDependency */,
 			);
-			name = "RealityKit Example ARMeshAnchorTests";
+			name = "RealityKit ARMeshAnchorTests";
 			productName = "RealityKit Example ARMeshAnchorTests";
-			productReference = B4DD6BC7274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests.xctest */;
+			productReference = B4DD6BC7274EDC0F004A1D8E /* RealityKit ARMeshAnchorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B4DD6BD0274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests */ = {
+		B4DD6BD0274EDC0F004A1D8E /* RealityKit ARMeshAnchorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4DD6BE1274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchorUITests" */;
+			buildConfigurationList = B4DD6BE1274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit ARMeshAnchorUITests" */;
 			buildPhases = (
 				B4DD6BCD274EDC0F004A1D8E /* Sources */,
 				B4DD6BCE274EDC0F004A1D8E /* Frameworks */,
@@ -181,9 +206,9 @@
 			dependencies = (
 				B4DD6BD3274EDC0F004A1D8E /* PBXTargetDependency */,
 			);
-			name = "RealityKit Example ARMeshAnchorUITests";
+			name = "RealityKit ARMeshAnchorUITests";
 			productName = "RealityKit Example ARMeshAnchorUITests";
-			productReference = B4DD6BD1274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests.xctest */;
+			productReference = B4DD6BD1274EDC0F004A1D8E /* RealityKit ARMeshAnchorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B4DD6BB0274EDC0B004A1D8E /* Build configuration list for PBXProject "RealityKit Example ARMeshAnchor" */;
+			buildConfigurationList = B4DD6BB0274EDC0B004A1D8E /* Build configuration list for PBXProject "RealityKit ARMeshAnchor" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +247,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4DD6BB4274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor */,
-				B4DD6BC6274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorTests */,
-				B4DD6BD0274EDC0F004A1D8E /* RealityKit Example ARMeshAnchorUITests */,
+				B4DD6BB4274EDC0B004A1D8E /* RealityKit ARMeshAnchor */,
+				B4DD6BC6274EDC0F004A1D8E /* RealityKit ARMeshAnchorTests */,
+				B4DD6BD0274EDC0F004A1D8E /* RealityKit ARMeshAnchorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4DD6BE6274EE688004A1D8E /* MeshAnchorGeometry.swift in Sources */,
+				B4DD6BEF27512001004A1D8E /* warpSurface.metal in Sources */,
 				B4DD6BBB274EDC0B004A1D8E /* ContentView.swift in Sources */,
+				B4DD6BF127512734004A1D8E /* warpGeometry.metal in Sources */,
 				B4DD6BB9274EDC0B004A1D8E /* AppDelegate.swift in Sources */,
-				B4DD6BBD274EDC0B004A1D8E /* Experience.rcproject in Sources */,
+				B4DD6BE8274FB248004A1D8E /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +316,12 @@
 /* Begin PBXTargetDependency section */
 		B4DD6BC9274EDC0F004A1D8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4DD6BB4274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor */;
+			target = B4DD6BB4274EDC0B004A1D8E /* RealityKit ARMeshAnchor */;
 			targetProxy = B4DD6BC8274EDC0F004A1D8E /* PBXContainerItemProxy */;
 		};
 		B4DD6BD3274EDC0F004A1D8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4DD6BB4274EDC0B004A1D8E /* RealityKit Example ARMeshAnchor */;
+			target = B4DD6BB4274EDC0B004A1D8E /* RealityKit ARMeshAnchor */;
 			targetProxy = B4DD6BD2274EDC0F004A1D8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -439,7 +467,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "TH.RealityKit-Example-ARMeshAnchor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "RealityKit ARMeshAnchor";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,7 +498,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "TH.RealityKit-Example-ARMeshAnchor";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "RealityKit ARMeshAnchor";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,7 +526,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealityKit Example ARMeshAnchor.app/RealityKit Example ARMeshAnchor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealityKit ARMeshAnchor.app/RealityKit ARMeshAnchor";
 			};
 			name = Debug;
 		};
@@ -523,7 +551,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealityKit Example ARMeshAnchor.app/RealityKit Example ARMeshAnchor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealityKit ARMeshAnchor.app/RealityKit ARMeshAnchor";
 			};
 			name = Release;
 		};
@@ -576,7 +604,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4DD6BB0274EDC0B004A1D8E /* Build configuration list for PBXProject "RealityKit Example ARMeshAnchor" */ = {
+		B4DD6BB0274EDC0B004A1D8E /* Build configuration list for PBXProject "RealityKit ARMeshAnchor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4DD6BD9274EDC0F004A1D8E /* Debug */,
@@ -585,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4DD6BDB274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchor" */ = {
+		B4DD6BDB274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit ARMeshAnchor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4DD6BDC274EDC0F004A1D8E /* Debug */,
@@ -594,7 +622,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4DD6BDE274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchorTests" */ = {
+		B4DD6BDE274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit ARMeshAnchorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4DD6BDF274EDC0F004A1D8E /* Debug */,
@@ -603,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4DD6BE1274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit Example ARMeshAnchorUITests" */ = {
+		B4DD6BE1274EDC0F004A1D8E /* Build configuration list for PBXNativeTarget "RealityKit ARMeshAnchorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4DD6BE2274EDC0F004A1D8E /* Debug */,
