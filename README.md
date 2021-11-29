@@ -15,7 +15,6 @@ Changing colours of the classifications.
 
 ![Alt Text](https://github.com/TravisHall/RealityKit-Example-ARMeshAnchor-Geometry/blob/main/RealityKit%20Example%20ARMeshAnchor/Demo/demo.gif)
 
-TODO: Writeup how it works
 
 
 ## Further reading
