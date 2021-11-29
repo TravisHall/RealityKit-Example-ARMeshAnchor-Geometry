@@ -19,6 +19,7 @@ TODO: Writeup how it works
 
 
 ## Further reading
-**[Max Cobb - Getting Started with RealityKit: Procedural Geometries](https://maxxfrazer.medium.com/getting-started-with-realitykit-procedural-geometries-5dd9eca659ef)**. 
+**[Max Cobb - Getting Started with RealityKit: Procedural Geometries](https://maxxfrazer.medium.com/getting-started-with-realitykit-procedural-geometries-5dd9eca659ef)**.  
+
 **[Visualizing and Interacting with a Reconstructed Scene](https://developer.apple.com/documentation/arkit/content_anchors/visualizing_and_interacting_with_a_reconstructed_scene)**
 
